@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline, FeatureUnion
+from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, confusion_matrix
 from imblearn.over_sampling import SMOTE
@@ -107,7 +108,7 @@ def train_model(X_train, y_train, plot_name='', class_weight=None):
     
     global clf_name
 
-    clf = RandomForestClassifier(n_estimators=500, max_depth=10, random_state=45, class_weight=class_weight)
+    clf = LogisticRegression(class_weight=class_weight)
     clf.fit(X_train, y_train)
     y_pred_train = clf.predict(X_train)
     y_pred_test = clf.predict(X_test_final)
