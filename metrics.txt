@@ -1,0 +1,12 @@
+RandomForestClassifier without-imbalance
+F1-score of Training is: 93.41 %
+F1-Score of Validation is: 80.18 %
+----------------------------------------
+RandomForestClassifier with-class-weights
+F1-score of Training is: 95.23 %
+F1-Score of Validation is: 84.70 %
+----------------------------------------
+RandomForestClassifier with-SMOTE
+F1-score of Training is: 98.54 %
+F1-Score of Validation is: 82.60 %
+----------------------------------------
