@@ -1,12 +1,12 @@
-LogisticRegression without-imbalance
-F1-score of Training is: 68.12 %
-F1-Score of Validation is: 65.76 %
+DecisionTreeClassifier without-imbalance
+F1-score of Training is: 100.00 %
+F1-Score of Validation is: 76.63 %
 ----------------------------------------
-LogisticRegression with-class-weights
-F1-score of Training is: 61.78 %
-F1-Score of Validation is: 62.00 %
+DecisionTreeClassifier with-class-weights
+F1-score of Training is: 100.00 %
+F1-Score of Validation is: 76.46 %
 ----------------------------------------
-LogisticRegression with-SMOTE
-F1-score of Training is: 81.82 %
-F1-Score of Validation is: 65.57 %
+DecisionTreeClassifier with-SMOTE
+F1-score of Training is: 100.00 %
+F1-Score of Validation is: 78.24 %
 ----------------------------------------
