@@ -1,5 +1,8 @@
-scikit-learn==1.2.2
-sklearn-features==0.0.2
-imblearn
+pandas
+numpy
 matplotlib
 seaborn
+pillow
+scikit-learn
+imbalanced-learn
+sklearn-features

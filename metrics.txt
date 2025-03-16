@@ -1,0 +1,12 @@
+DecisionTreeClassifier without-imbalance
+F1-score of Training is: 100.00 %
+F1-Score of Validation is: 76.63 %
+----------------------------------------
+DecisionTreeClassifier with-class-weights
+F1-score of Training is: 100.00 %
+F1-Score of Validation is: 76.46 %
+----------------------------------------
+DecisionTreeClassifier with-SMOTE
+F1-score of Training is: 100.00 %
+F1-Score of Validation is: 78.24 %
+----------------------------------------
